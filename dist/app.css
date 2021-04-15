@@ -1,3 +1,65 @@
-h1 {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/truman3.jpg?c4c5a6db17e922afe6717f138bb6cbbc);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.container {
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  max-width: 90vh;
+  border-radius: 10px;
+}
+
+.container2, .container3, .container4,
+.container5 {
+  position: relative;
+}
+
+.container2 {
+  right: 60%;
+}
+
+.container3 {
+  right: 45%;
+}
+
+.container4 {
+  right: 20%;
+}
+
+.container5 {
+  right: -2%;
+}
+
+h2 {
+  margin: 10px 0;
+  display: inline-block;
+  vertical-align: middle;
+  color: #0c2f6f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 30px;
+  color: #09235c;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button {
+  vertical-align: middle;
+  padding: 4px 2px;
+  background-color: #09235c;
+  color: #fff;
+  border: 1px solid #fff;
 }
